@@ -9,8 +9,8 @@ var avialable_languages = [
 ]
 
 var available_programming_languages = [
-    Rust,
-    CPP
+    'Rust',
+    'CPP'
 ]
 
 var language_alphabets = {
