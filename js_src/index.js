@@ -167,13 +167,6 @@ function submitAnswer(which_option) {
     }
 }
 
-var plotData = [
-    x: [],
-    y: [],
-    type: 'bar',
-    name: ""
-];
-
 function viewResults() {
     decolorCorrectAnswer(); 
 
@@ -183,26 +176,25 @@ function viewResults() {
       title: "Learning Progress"
     };
 
-    var German = {
-        x: [1, 2, 3, 4],
-        y: [3, 3, 4, 5],
-        type: 'bar',
-        name: 'German'
-      };
+    // var German = {
+    //     x: [1, 2, 3, 4],
+    //     y: [3, 3, 4, 5],
+    //     type: 'bar',
+    //     name: 'German'
+    //   };
       
       
-      var Spanish = {
-        x: [1, 2, 3, 4],
-        y: [2, 2, 5, 7],
-        type: 'bar',
-        name: 'Spanish'
-      };
+    //   var Spanish = {
+    //     x: [1, 2, 3, 4],
+    //     y: [2, 2, 5, 7],
+    //     type: 'bar',
+    //     name: 'Spanish'
+    //   };
       
       
       //var data = [German, Spanish];
     
-    plotData.x
-    Plotly.newPlot("myPlot", plotData, layout, color='category',{responsive: true});
+    // Plotly.newPlot("myPlot", plotData, layout, color='category',{responsive: true});
     
     d3.select('#result_table').append('tr')
         .selectAll("td")
