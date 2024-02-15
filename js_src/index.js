@@ -5,7 +5,7 @@ var avialable_languages = [
     'Korean',
     'Turkish',
     'Arabic',
-    'Portuguese',
+    // 'Portuguese',
 ]
 
 var available_programming_languages = [
@@ -20,7 +20,7 @@ var language_alphabets = {
     'Korean': 'ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ',
     'Turkish': 'A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z',
     'Arabic': 'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',
-    'Portuguese': 'A B C D E F G H I J L M N O P Q R S T U V X Z'
+    // 'Portuguese': 'A B C D E F G H I J L M N O P Q R S T U V X Z'
 };
 
 var available_quiz_types = [
